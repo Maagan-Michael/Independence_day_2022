@@ -108,7 +108,7 @@ void Lunch(int r, int g , int b){
        FastLED.show();  
        FastLED.delay(100); 
 }
-void Boom(){
+void Boom(int r, int g , int b){
   leds[ledCurraction(1,2)] = CRGB(r,g,b);
   leds[ledCurraction(1,3)] = CRGB(r,g,b);
        FastLED.show();  
